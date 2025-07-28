@@ -1,1 +1,9 @@
-@font-face{font-family:kuaikan;src:url(/fonts/kuaikan.woff2) format("woff");font-style:normal;font-weight:400}
+@font-face {
+    font-family: "kuaikan";
+    src: url("/fonts/kuaikan.woff2") format("woff"); /* chrome、firefox */
+
+    font-style: normal;
+    font-weight: normal;
+}
+
+
