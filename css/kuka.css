@@ -743,8 +743,9 @@ a:hover {
 
 .home #celis .celis-welcome .celis-info {
   font-size: 5rem;
-  font-family: 'kuaikan';
+  /* font-family: 'kuaikan'; */
   line-height: 5rem;
+  -webkit-text-stroke: 3px;
   color: var(--glmp-font-title);
   /* text-shadow: 3px 5px 8px hsl(var(--wh-red), var(--wh-yellow), var(--wh-blue), .6); */
   animation: bottom-top 1s;
@@ -1282,7 +1283,8 @@ a:hover {
 
 .post #post-info h1 {
   font-size: 3rem;
-  font-family: "kuaikan";
+  -webkit-text-stroke: 1.4px !important;
+  /* font-family: "kuaikan"; */
 }
 
 .post #content-inner {
@@ -2167,7 +2169,7 @@ body#type-messages {
 .message .tk-comments-title {
   top: -50px;
   left: 0;
-  font-family: "kuaikan";
+  /* font-family: "kuaikan"; */
   font-size: 2rem;
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke: .1px var(--glmp-font-title);
@@ -2435,7 +2437,7 @@ body#type-abouts {
   bottom: 0;
   opacity: .1;
   content: 'blog.glimp.top blog.glimp.top blog.glimp.top';
-  font-family: 'kuaikan';
+  /* font-family: 'kuaikan'; */
   font-size: clamp(6.5em, 15vw, 25em);
   letter-spacing: 30px;
   line-height: 1;

@@ -65,7 +65,7 @@
   --glmp-imgMask: transparent;
   --glmp-post-ulbg: #f1f1f1;
   --glmp-post-ulbtn: linear-gradient(180deg, rgb(52 52 52 / 60%), rgb(66 66 66 / 90%));
-  --glmp-post-conmenbg: #f1f1f1;
+  --glmp-post-conmenbg: #fff;
   --glmp-post-border: 1px solid #ebebeb;
   --glmp-post-rewardBtn: #f7f7f7;
   --glmp-post-copyrightIcon: #e8e8e8;
