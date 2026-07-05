@@ -1,0 +1,89 @@
+
+/* ********************************************************* 颜色统一放这里，方便管理 ****************************************** */
+
+:root{
+  --liu-main-color:rgb(66, 90, 239);
+
+  --nav-height: 4rem;
+  --home-layout-height: 16.5rem;
+  --home-padding: 3rem;
+  --footer-height: 2rem;
+  --list-width: 350px;
+  --glimp-font-title: hsl(var(--red), var(--yellow), var(--blue), 1);
+  --post-content-width: 1000px;
+  --glimp-border-radius: 20px;
+  --glimp-post-topbg: transparent;
+
+  --mes-cs: #0d122b;
+  --mes-textColor: #dddddd;
+  --mes-titleColor: #f79e59;
+  --mes-bgColor: rgb(24 24 24 / 79%);
+}
+
+
+
+/* *** 浅色 *** */
+
+[data-theme=light]{
+  /* 主体色 */
+  --glmp-color: 3 81% 72%;
+  --glmp-delColor: 3 81% 72%;
+
+  /* 黑色 */
+  --bl-color: 0 0% 0%;
+
+  /* 白色 */
+  --wh-color: 0 0% 100%;
+
+  /* 其它色彩 */
+  --glimp-homeBgColor: #fafafa;
+  --glimp-bannerBg: #fafafa;
+  --glimp-bannerBg-bafore: rgba(255, 255, 255, 0.1);
+  --glimp-planets-fiter: 8px;
+  --glimp-planets2-fiter: 5px;
+  --glimp-nav-bgColor: rgba(253,253,253,0.9);
+  --glimp-nav-ouColor: #e3e8f7;
+  --glimp-nav-ulColor: #fff;
+  --glimp-navBorder: 1px solid hsl(var(--glmp-color) / .15);
+  --glimp-maskColor: hsl(var(--wh-red), var(--wh-yellow), var(--wh-blue), .9);
+
+  --glimp-font-Color: #303030;
+  --glimp-postFont-color: #1a1a1a;
+  --glimp-fontconColor: #a0a0a0;
+  --glimp-home-layoutbg: radial-gradient(farthest-side at 50% 0, var(--s-bg, rgb(255 255 255 / .5)), #0000);
+  --glimp-border: thin solid hsl(19.9deg 83% 90% / 50%);
+  --glimp-button-cor: var(--glimp-font-title);
+
+  --glimp-imgMask: transparent;
+  --glimp-post-ulbg: #282c34;
+  --glimp-post-ulFigurebg: #1e2127;
+  --glimp-post-ulbtn: linear-gradient(180deg, rgb(52 52 52 / 60%), rgb(66 66 66 / 90%));
+  --glimp-post-ulFontsColor: #e8e8e8;
+  --glimp-post-conmenbg: #fff;
+  --glimp-post-border: 1px solid #ebebeb;
+  --glimp-post-rewardBtn: #e3e3e3;
+  --glimp-post-copyrightIcon: #e8e8e8;
+  --glimp-commentColor: #e3e3e3;
+  --glimp-comment-infoColor: #e1e1e1;
+
+  --glimp-tk-textbg: #f0f0f0;
+
+  --glimp-sortItem: #fff;
+
+  --glimp_console_color: rgba(255, 255, 255, 0.6);
+  --glimp_console_ulColor: #fff;
+
+  --glimp_border_color: 1px solid #f7e3e3;
+  --glimp_shadow_border: 0 8px 16px -4px #3c35350d;
+
+  --glimp-footerbg: 0 33% 96%;
+  --glmp-postFooterbg: 0 33% 96%;
+}
+
+
+
+/* *** 深色 *** */
+
+[data-theme=dark]{
+
+}

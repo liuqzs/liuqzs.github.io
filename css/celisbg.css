@@ -1,0 +1,101 @@
+
+/* ****************** 首页背景动画 ******************** */
+
+[data-theme=light]{
+  --glmp-bannerBg-inset: 100vw;
+  --glmp-bannerBg-sunbg: radial-gradient(circle at 60% 60%, #ffdfdf, #ffded9, #ffd8d8);
+  --glmp-bannerBg-sunbox: 0 0 14vmax rgb(255 190 190 / 50%), 
+                          0 0 22vmax rgb(255 151 77 / 5%), 
+                          0 0 42vmax rgb(255 255 255 / 40%);
+  --glmp-bannerBg-planetbg: radial-gradient(circle at 60% 60%, #ffd4d4, #ffdede, #fff2ef);
+  --glmp-bannerBg-celis: radial-gradient(90% 90% at 70% 50%, #ffdcdc, #ffc7c7 38%, #ffd1d1 52%, #ffbaba 60%, #ffede500 82%);
+}
+
+/* *** 深色 *** */
+
+[data-theme=dark]{
+  --glmp-bannerBg-inset: 0;
+  --glmp-bannerBg-sunbg: radial-gradient(circle at 60% 60%, #f6f6f6, #e8dbdd, #d9d9d9);
+  --glmp-bannerBg-sunbox: 0 0 14vmax rgba(255, 255, 255, 0.5), 
+                          0 0 22vmax rgba(255, 255, 255, 0.05), 
+                          0 0 42vmax rgba(255, 255, 255, 0.4);
+  --glmp-bannerBg-planetbg: radial-gradient(90% 90% at 60% 55%, #252525, #2a2f33 52%, #ede9ea 62%), #ede9ea;
+  --glmp-bannerBg-celis: radial-gradient(90% 90% at 70% 50%, #bbbaba, #888586 38%, #121415 52%, #131617 60%, transparent 82%);
+}
+
+
+:root {
+  --color-primary: rgba(220, 219, 219, 0.78);
+  --color-surface: #242425;
+  --time: 24s;
+}
+
+[data-theme=light] .home #celis .celisbg .sun {
+  /* transform: translateY(-3vmax); */
+  width: 45vmax;
+}
+
+.home .sun {
+  border-radius: 50%;
+  width: 45vmax;
+  height: 45vmax;
+  background: radial-gradient(circle, #ffffff 31%, #fff4f3 66%, #f7edec 80%);
+  /* position: absolute; */
+  transform: translateY(-4vmax);
+  box-shadow: 0px 0px 170px #fff2f2;
+  transform-style: preserve-3d;
+  transition: .7s;
+}
+
+.scene {
+  /* display: grid; */
+  /* display: none; */
+  /* place-items: center; */
+  position: absolute;
+  -webkit-animation: scene-zoom-in-out var(--time) ease-in-out infinite;
+          animation: scene-zoom-in-out var(--time) ease-in-out infinite;
+  transform-style: preserve-3d;
+}
+
+/* ****************** 首页背景动画 ******************** */
+
+
+
+
+
+
+
+/* ****************** 留言页背景动画 ******************** */
+
+#type-messages::-webkit-scrollbar-track {
+  background: #1a1413 !important; /* 轨道透明 */
+  /* border-radius: 4px; */
+}
+#type-messages::-webkit-scrollbar-thumb {
+  background: #72291c59;
+  border: none;
+}
+
+.message #content-inner {
+  animation: none;
+}
+
+.mstars {
+  position:absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  width:100%;
+  height:100%;
+  display:block;
+}
+
+.mstars {
+  background-image: url("/img/message-bg.svg");
+  inset: 0;
+  opacity: .07;
+  z-index:0;
+}
+
+/* ****************** 留言页背景动画 ******************** */
